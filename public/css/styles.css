@@ -1,0 +1,123 @@
+.main container {
+    background-color: #97a895;
+}
+
+.navbar navbar-expand-md shadow-sm {
+    background-color: #97a895;
+}
+
+.container-fluid{
+    background-color: #97a895;
+    width: 100%;
+}
+
+.col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-warning {
+    background-color: #97a895;
+}
+
+.nav-header {
+    background-color: #e4e7e1;
+    height: 60px;
+}
+
+.img-fluid {
+    background-color: #f6f6e9;
+    background-image: url('../assets/img/ps-logo1.png');
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 130px;
+    background-size: contain;
+    margin-left: 15%;
+}
+.main--container {
+    background-color: #f6f6e9;
+    border-radius: 5px;
+    margin-left: 35px;;
+}
+
+.navbar navbar-expand-md navbar-light shadow-sm {
+    background-color: #0c0c0b;
+}
+
+.login-container {
+    padding-top: 8%;
+    background-color: #97a895;
+    height:800px;
+}
+
+.con {
+    width: 136px;
+    height: 160px;
+    background-image: url('../assets/img/ps-logo1.png');
+    background-repeat: no-repeat;
+    background-size: 135px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #f6f6e9;
+}
+
+.main-container {
+    padding-left:25px;
+}
+.c-button {
+    margin-right:10%;
+}
+
+.btn btn-info {
+    color:#f6f6e9;
+    margin-right:10%;
+}
+
+.modal-subtitle {
+    padding-left:25px;
+}
+
+div#map {
+    height: 50%;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.map container {
+    background-color: #27e212;
+}
+
+.page-link {
+    color: black;
+}
+
+.page-item.active .page-link,
+.page-link:hover{
+    background-color: #97a895;
+    border-color: #97a895;
+    color: white;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.canvasjs-chart-canvas {
+    height: 370px;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-item.dropdown {
+        z-index: 3;
+        background: #e4e7e1;
+        width: 45%;
+        text-align: center;
+    }
+
+    .container,
+    .container-sm {
+        max-width: 95%
+    }
+}
